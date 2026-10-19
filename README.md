@@ -26,18 +26,22 @@ publications/
 
 evidence-commitments/
   <date>/
-    EVIDENCE_COMMITMENT.txt   — public-facing commitment: scope description, source
-                                 repository HEAD, file count, and SHA-256 of a private
-                                 evidence archive. The archive's actual contents (which
-                                 documents, their names, their text) are NOT published
-                                 here — only the fact that a specific cryptographically
-                                 fixed set exists, and its hash. Any later alteration of
-                                 that archive would be detectable through its hash.
+    EVIDENCE_COMMITMENT.md  — public SHA-256 and scope of a private,
+                              independently stored evidence selection
 
-  (Not yet created as of this repo's first commit — added the day the
-  private evidence snapshot is actually built and hashed, with that day's
-  real date, not before.)
+implementations/
+  <product-slug>/
+    <version>/
+      IMPLEMENTATION_RECORD.md  — immutable private-product version,
+                                  public checksum and method-function mapping
 ```
+
+## New records — 19 October 2026
+
+- [Method origin evidence commitment](evidence-commitments/2026-10-19/EVIDENCE_COMMITMENT.md) — seven private historical excerpts, with only the archive's checksum and neutral scope made public.
+- [Business-Course Part 1 v0.1.0-pilot](implementations/business-course-part1/v0.1.0-pilot/IMPLEMENTATION_RECORD.md) — first fixed versioned Part 1 pilot implementation, with package SHA-256 and bounded structural mapping to Method Definition v1.0.
+
+The historical evidence and product implementation are distinct private ZIP artifacts. Neither ZIP is published here. The published commit dates are the public fixation dates; internal historical source dates are not independently certified.
 
 ## How to verify a publication
 
