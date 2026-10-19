@@ -52,7 +52,7 @@ The historical evidence and product implementation are distinct private ZIP arti
 
 ## How an evidence commitment works
 
-Each `EVIDENCE_COMMITMENT.txt` publicly fixes the SHA-256 of a private,
+Each `EVIDENCE_COMMITMENT.md` publicly fixes the SHA-256 of a private,
 scoped archive of documents relevant to a specific publication's origin.
 Publishing the hash here — visible to anyone from that point on — means
 that archive cannot later be silently altered and presented as the same
